@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a solution to the Results summary component challenge on Frontend Mentor.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="./style.css"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <main>
+    <section class="result">
+      <h2>Your Result</h2>
+      <div class="result-score">
+        <div class="result-score--main">76</div>
+        <div class="result-score--secondary">of 100</div>
+      </div>
+      <div class="result-info">
+        <div class="result-info__title">
+          Great
+        </div>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    <section class="summary">
+      <h2>Summary</h2>
+      <ul>
+        <li class="summary-item">
+          <img src="./assets/images/icon-reaction.svg" alt="">
+          <span class="summary-item__label">
+            Reaction
+          </span>
+          <span class="summary-item__result">
+            <span class="summary-item__result--main">80</span>
+            <span class="summary-item__result--secondary">/ 100</span>
+          </span>
+        </li>
+        <li class="summary-item">
+          <img src="./assets/images/icon-memory.svg" alt="">
+          <span class="summary-item__label">
+            Memory
+          </span>
+          <span class="summary-item__result">
+            <span class="summary-item__result--main">92</span>
+            <span class="summary-item__result--secondary">/ 100</span>
+          </span>
+        </li>
+        <li class="summary-item">
+          <img src="./assets/images/icon-verbal.svg" alt="">
+          <span class="summary-item__label">
+            Verbal
+          </span>
+          <span class="summary-item__result">
+            <span class="summary-item__result--main">61</span>
+            <span class="summary-item__result--secondary">/ 100</span>
+          </span>
+        </li>
+        <li class="summary-item">
+          <img src="./assets/images/icon-visual.svg" alt="">
+          <span class="summary-item__label">
+            Visual
+          </span>
+          <span class="summary-item__result">
+            <span class="summary-item__result--main">72</span>
+            <span class="summary-item__result--secondary">/ 100</span>
+          </span>
+        </li>
+      </ul>
+
+      <button>
+        Continue
+      </button>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">MWergles</a>.
+  </div>
+</body>
+</html>
