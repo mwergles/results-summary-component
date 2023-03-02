@@ -30,7 +30,7 @@
   padding: 2rem;
 }
 
-.result h2 {
+.result h1 {
   color: var(--c-light-lavender);
   text-align: center;
   font-size: 1.125rem;
